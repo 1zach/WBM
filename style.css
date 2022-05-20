@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    height: 4rem;
+    color: black;
+    background-color: white;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav_menu {
+   font-size: 3.5rem;
+   text-decoration: none;
+   padding: 0 2rem 0 0;
+   color: black;
+   transition:transform .25s;
+}
+
+.nav_menu:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+li {
+    padding: 1rem 2rem 1rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+#dd {
+    font-size: .5rem;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: .5rem;
+}
+
+.header_text {
+    font-size: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#wbm {
+    height: 12rem;
+}
+.card {
+    height: 40rem;
+    background-color: rgba(226, 226, 226, 0.644);
+    width: 36rem;
+    border-radius: 4px 4px 4px;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.cover {
+    height: 36rem;
+}
+.issue_img {
+    height: 18rem;
+    
+    z-index: 0;
+}
+
+.card_text {
+    color: black;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    
+}
+
+#card_header_text1 {
+    font-size: 1.5rem;
+}
+
+
+
+#ddHeader {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.ddContainer {
+    width: 75vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#ddText {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+#ddLink {
+    text-decoration: none;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+#ddImg {
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    align-self: center;
+}
+
+.merch_container {
+    display: flex;
+    flex-direction: row;
+}
+
+#merch_header {
+    font-size: 5rem;
+}
+
+#merch_text {
+    font-size: 2.5rem;
+}
+
+#about_header {
+    font-size: 5rem;
+    text-align: center;
+}
+
+#about_container {
+    width: 75vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#about_text {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .header_text {
+        font-size: 3rem;
+    }
+
+    #wbm {
+        height: 6rem;
+        margin-right: 1.5rem;
+    }
+
+    .nav_menu {
+        font-size: 1.5rem;
+    }
+
+    #navbar {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+    }
+
+    .merch_container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
