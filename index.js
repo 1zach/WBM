@@ -1,3 +1,8 @@
+const issue9 = {
+    links: "https://www.canva.com/design/DAFCFM04_Qk/PyElGeHm7HkxBO_WPwiAXA/view?utm_content=DAFCFM04_Qk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    images: 'img/WBM V1 Issue 9 61022.png',
+    alts: "WBM Issue 9"
+}
 
 let issue8 = {
     links: "https://www.canva.com/design/DAFBY5TtbOo/vpFUIK52suC6LSR-YY5Lkw/view?utm_content=DAFBY5TtbOo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
@@ -70,8 +75,8 @@ function back(data) {
     </div>`
 }
 
-
-current(issue8)
+current(issue9)
+back(issue8)
 back(issue7)
 back(issue6)
 back(issue5)
